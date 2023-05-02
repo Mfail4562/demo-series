@@ -13,8 +13,7 @@
 
         public function home()
         {
-            echo "coucou";
-            die();
+            return $this->render('main/home.html.twig');
         }
 
         /**
@@ -23,7 +22,6 @@
 
         public function test()
         {
-            echo "testounet";
-            die();
+           return $this->render('main/test.html.twig');
         }
     }
